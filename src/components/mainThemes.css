@@ -1,0 +1,24 @@
+div .themesBoxText{
+    font-size: 20px;
+    color: #777;
+}
+
+div .ThemeBox{
+    border-color: #777;
+}
+
+div .ThemeBox h6{
+    color: #0184e2;
+}
+
+@media screen and (min-width: 361px) and (max-width : 575px){
+    div .themesBoxText{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width : 360px) {
+    div .themesBoxText{
+        font-size: 13px;
+    }
+}

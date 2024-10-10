@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.subCareerDiv{
+    position: relative;
+}
+
+.subCareerText1,
+.subCareerText2,
+.careerTryNowButton{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.subCareerText2{
+  top: 30.5%;
+}
+
+.careerTryNowButton{
+    top: 56.5%;
+    height: max-content;
+}
+
+.subCareerShare{
+    position: absolute;
+    top: 10%;
+    left: 91%;
+    transform: translate(-50%);
+}
+
+.subCareerDiv ul{
+    list-style-type: none;
+}

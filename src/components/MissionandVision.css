@@ -1,0 +1,106 @@
+.vision-container,
+.mission-container {
+    position: relative;
+    color: #fff;
+}
+
+.missionHead,
+.VisionHead {
+    position: absolute;
+    top: 2%;
+    font-size: 60px;
+    left: 50%;
+    transform: translate(-50%);
+    border-bottom: 3px solid #fff;
+}
+
+.mission-centered,
+.vision-centered {
+    position: absolute;
+    top: 30%;
+    font-size: 23px;
+}
+
+@media (min-width : 992px) and (max-width : 1199px) {
+
+    .missionHead,
+    .VisionHead {
+        font-size: 40px;
+    }
+
+    .mission-centered,
+    .vision-centered {
+        top: 20%;
+        font-size: 18px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+
+    .missionHead,
+    .VisionHead {
+        font-size: 35px;
+    }
+
+    .mission-centered,
+    .vision-centered {
+        top: 18%;
+        font-size: 16px;
+    }
+}
+
+@media (min-width : 576px) and (max-width : 767px) {
+
+    .missionHead,
+    .VisionHead {
+        font-size: 30px;
+    }
+
+    .mission-centered,
+    .vision-centered {
+        top: 28%;
+        font-size: 14px;
+        line-height: 1.2;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .missionHead,
+    .VisionHead {
+        top: 10px;
+        font-size: 20px;
+        padding-bottom: 1px;
+        line-height: 0.8;
+        border-bottom: 2px solid #fff;
+    }
+
+    .mission-centered,
+    .vision-centered {
+        top: 17%;
+        font-size: 11px;
+        line-height: 1.1;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .missionHead,
+    .VisionHead {
+        top: 2%;
+        font-size: 20px;
+        padding-bottom: 1px;
+        line-height: 0.8;
+        border-bottom: 2px solid #fff;
+    }
+
+    .mission-centered,
+    .vision-centered {
+        top: 20%;
+        font-size: 11px;
+        line-height: 1.1;
+        margin: 10px;
+    }
+}

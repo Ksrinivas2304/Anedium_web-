@@ -1,0 +1,282 @@
+.navOptions .nav-item a.actived {
+  background-color: #0184e2;
+  color: #fff;
+  font-weight: bold;
+}
+
+.subnav .navOptions .nav-item a:hover {
+  background-color: #0184e2;
+  color: #fff;
+}
+
+div .topTextDiv {
+  height: 100%;
+}
+
+.globeImgDiv {
+  max-width: 448px;
+  width: 90%;
+}
+
+.headText {
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.EmpoweringSubHead {
+  color: #0184e2;
+  border-bottom: 4px solid #0184e2;
+  max-width: 650px;
+  width: 100%;
+}
+
+.empoweringLearnersContent {
+  font-size: 24px;
+}
+
+.our_historyContent p,
+.empoweringLearnersContent {
+  font-size: 21px;
+}
+
+div .demoBtn {
+  background-color: #0184e2;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+div .demoBtn:hover {
+  background-color: rgb(3, 90, 151, 0.8);
+  color: white;
+}
+
+.StayConnectedBox {
+  background-color: #dbffd4;
+}
+
+div .StayConnectedBox .StayConnectedText {
+  margin-top: 100px;
+}
+
+div .StayConnectedBox .StayConnectedText p {
+  max-width: 400px;
+  margin: 0;
+}
+
+.Imghighlightcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-centered {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translatex(-50%);
+  font-size: 20px;
+}
+
+.middle-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+}
+
+.bottom-centered {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.institutes {
+  background-color: #f4f4f4;
+}
+
+.ratingBox {
+  transform: translatex(150px);
+}
+
+.our-history {
+  font-size: 20px;
+}
+
+.advisorImg {
+  max-width: 160px;
+}
+
+.roll,
+.applicationHead {
+  color: #0184e2;
+}
+
+div .card {
+  position: relative;
+  margin: 50px auto;
+  border: 3px solid #f5f5f5;
+}
+
+.storyImg {
+  position: absolute;
+  top: -60px;
+  left: 30px;
+}
+
+.ratingDiv {
+  position: relative;
+  left: 140px;
+  width: max-content;
+}
+
+.supporters {
+  background-color: #f4f4f4;
+}
+
+.supporterImg {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  max-width: 110px;
+  background-color: #fff;
+}
+
+div .supporters .supporterDiv {
+  width: 300px !important;
+  width: max-content;
+}
+
+.careerRolls h4,
+.serviceHead,
+.creerHead,
+.jobDescriptonHead {
+  color: #0184e2;
+}
+
+.serviceDiv {
+  position: relative;
+}
+
+.serviceText1 {
+  position: absolute;
+  top: 19%;
+  left: 8%;
+  color: #fff;
+  max-width: 600px;
+  font-size: 32px;
+}
+
+.serviceText2 {
+  position: absolute;
+  top: 70%;
+  left: 22%;
+  color: #fff;
+  font-size: 32px;
+}
+
+.career p {
+  font-size: 21px;
+}
+
+.jobDescriptonPoints ul li{
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+@media (min-width: 928px) and (max-width: 1100px) {
+  .headText {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 927px) {
+  .headText {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .headText {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width : 992px) and (max-width : 1199px) {
+
+  .our_historyContent p,
+  .empoweringLearnersContent {
+    font-size: 18px;
+  }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+  div .StayConnectedBox .StayConnectedText {
+    margin: 50px;
+  }
+
+  .our_historyContent p,
+  .empoweringLearnersContent {
+    font-size: 14px;
+  }
+
+  .serviceText1,
+  .serviceText2 {
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 27px;
+    width: 520px;
+    text-align: center;
+  }
+}
+
+@media (min-width : 577px) and (max-width : 767px) {
+  div .StayConnectedBox .StayConnectedText {
+    margin: 50px;
+  }
+
+  .our_historyContent p,
+  .empoweringLearnersContent {
+    font-size: 18px;
+  }
+
+  .serviceText1,
+  .serviceText2 {
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 24px;
+    width: 450px;
+    text-align: center;
+  }
+}
+
+@media (max-width : 576px) {
+  div .StayConnectedBox .StayConnectedText {
+    margin: 50px;
+  }
+
+  .our_historyContent p,
+  .empoweringLearnersContent {
+    font-size: 14px;
+  }
+
+  .serviceText1,
+  .serviceText2 {
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 18px;
+    width: 335px;
+    text-align: center;
+  }
+}
+
+@media (max-width : 360px) {
+
+  .serviceText1,
+  .serviceText2 {
+    font-size: 15px;
+    width: 260px;
+  }
+}

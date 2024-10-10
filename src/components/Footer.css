@@ -1,0 +1,37 @@
+.footer{
+    background-color: #333;
+    color: white;
+}
+
+.footer h5{
+    border-bottom: 2px solid #0184e2;
+    width: max-content;
+    padding: 2px;
+}
+
+div p{
+    margin: 5px auto;
+}
+
+div p a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+div i{
+    font-size: 30px;
+    margin: auto 5px;
+}
+
+.btmLinks a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btmLinks a:nth-child(2){
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    margin: auto 5px;
+    padding:0 5px;
+}

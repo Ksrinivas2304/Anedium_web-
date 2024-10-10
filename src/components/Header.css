@@ -1,0 +1,84 @@
+
+.navLogo{
+    width: 100%;
+}
+
+.navbar1{
+    border-bottom: 1px solid #ccc;
+}
+
+button.contactBtn{
+    border: none;
+    background-color: #0184E2;
+    padding: 8px 16px;
+    color: white;
+    width: max-content;
+    gap: 2px;
+    font-size: 18px;
+}
+
+button.contactBtn a{
+    color: white;
+    text-decoration: none;
+}
+
+button.contactBtn:hover{
+    background-color: rgb(3, 90, 151, 0.8);
+}
+
+.navOptions .nav-item a{
+   font-weight: 500;
+   font-size: 18px;
+   color: #333;
+}
+
+.navOptions .nav-item a.active {
+    color: #0184E2;
+    font-weight: bold; 
+  }
+
+.navOptions .nav-item a:hover {
+   color: #0184E2;
+}
+
+.SearchCon{
+   position: absolute;
+   right: 170px;
+   top: 25px;
+}
+
+@media (min-width : 769px) and (max-width : 992px){
+    .SearchCon{
+        right: 120px;
+    }
+}
+
+@media (min-width : 577px) and (max-width : 768px){
+    .navLogo{
+        width: 90%;
+    }
+
+    .SearchCon{
+        right: 120px;
+    }
+}
+
+@media (min-width : 361px) and (max-width : 576px){
+    .navLogo{
+        width: 80%;
+    }
+    
+    .SearchCon{
+        right: 120px;
+    }
+}
+
+@media (max-width : 360px){
+    .navLogo{
+        width: 70%;
+    }
+    
+    .SearchCon{
+        right: 120px;
+    }
+}
